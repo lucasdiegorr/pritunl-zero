@@ -8,7 +8,7 @@ services:
         - '443:443'
     environment:
         - 'MONGO_URI=mongodb://mongo:27017/pritunl-zero'
-        - NODE_ID=$NODE_ID
+        - 'NODE_ID=657072de9292bdf9ff006990'
     links:
       - mongo
   mongo:
